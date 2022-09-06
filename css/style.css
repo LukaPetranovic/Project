@@ -24,6 +24,10 @@ body {
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
 .section {
   background: var(--bg-black-900);
   min-height: 100vh;
@@ -44,4 +48,49 @@ body {
   top: 0;
   height: 100%;
   z-index: 10;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside .logo {
+  position: absolute;
+  top: 50px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.aside .logo a {
+  color: var(--bg-black-900);
+  font-weight: 700;
+  background: black;
+  padding: 15px 20px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+.aside .logo a:hover {
+  background: red;
+}
+
+.aside .nav {
+  margin-top: 50px;
+}
+
+.aside .nav li {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.aside .nav li a {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  color: var(--text-black-900);
+}
+
+.aside .nav li a:hover {
+  color: red;
 }

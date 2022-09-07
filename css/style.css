@@ -102,3 +102,27 @@ ul {
 .aside .nav li a i {
   margin-right: 15px;
 }
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  color: var(--text-black-900);
+}
+
+.home .home-img img {
+  height: 400px;
+}
+
+.container {
+  max-width: 100vw;
+  width: 90%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
+}
